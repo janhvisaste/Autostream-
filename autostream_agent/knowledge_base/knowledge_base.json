@@ -1,0 +1,54 @@
+{
+  "basic_plan": {
+    "name": "Basic Plan",
+    "price": "$29 per month",
+    "video_limit": "10 videos per month",
+    "resolution": "720p",
+    "ai_captions": false,
+    "support": "Standard business-hours support (Mon-Fri, 9am-5pm)",
+    "features": [
+      "AI-powered automated video editing",
+      "720p export quality",
+      "Up to 10 videos per month",
+      "Standard templates library",
+      "Email support during business hours"
+    ],
+    "description": "The Basic Plan costs $29 per month. It allows creators to produce up to 10 videos per month exported at 720p resolution. AI captions are NOT included in the Basic Plan. Support is limited to standard business hours Monday through Friday. This plan is ideal for hobbyists and new content creators just getting started."
+  },
+  "pro_plan": {
+    "name": "Pro Plan",
+    "price": "$79 per month",
+    "video_limit": "Unlimited videos per month",
+    "resolution": "4K",
+    "ai_captions": true,
+    "support": "24/7 priority customer support via chat, email, and phone",
+    "features": [
+      "AI-powered automated video editing",
+      "4K ultra HD export quality",
+      "Unlimited videos per month",
+      "AI-powered automatic caption generation",
+      "24/7 priority customer support",
+      "Advanced templates and brand kit",
+      "Analytics dashboard",
+      "Priority rendering queue"
+    ],
+    "description": "The Pro Plan costs $79 per month. It includes unlimited video production exported at 4K resolution. AI-powered automatic caption generation is included. Pro Plan subscribers receive 24/7 priority customer support via live chat, email, and phone at any time. This plan is designed for professional content creators and businesses who need to scale their video output."
+  },
+  "refund_policy": {
+    "topic": "Refund Policy",
+    "window": "7 days from purchase date",
+    "description": "AutoStream offers refunds only within 7 days of the original purchase date. No refunds are issued after the 7-day billing window has passed. Refund requests must be submitted within 7 days of purchase by contacting support@autostream.ai. After 7 days, all sales are final and non-refundable. Partial refunds are not available. The 7-day refund window is strictly enforced."
+  },
+  "support_policy": {
+    "topic": "Support Policy",
+    "description": "24/7 priority customer support is exclusively a Pro Plan benefit. Pro Plan subscribers can reach support at any time via live chat, email, or phone. Basic Plan users receive standard support only during business hours, Monday through Friday from 9am to 5pm. Basic Plan users can contact support@autostream.ai during business hours. Phone support is not available on the Basic Plan. For urgent issues outside business hours, Basic Plan users must upgrade to Pro."
+  },
+  "plan_comparison": {
+    "topic": "Plan Comparison",
+    "description": "AutoStream offers two subscription plans. The Basic Plan costs $29 per month and includes 10 videos per month, 720p resolution exports, no AI captions, and standard business-hours support only. The Pro Plan costs $79 per month and includes unlimited videos, 4K resolution exports, AI-powered automatic captions, and 24/7 priority support. The key differences are: video quantity (10 per month vs unlimited), export resolution (720p vs 4K), AI captions (not included vs included), and support level (business hours only vs 24/7 priority). The Pro Plan costs $50 more per month than Basic. Most professional creators choose Pro for the unlimited video production and 4K quality."
+  },
+  "company_overview": {
+    "topic": "Company Overview",
+    "description": "AutoStream is an AI-powered video creation and live streaming platform built for content creators. AutoStream uses artificial intelligence to automate video editing, generate captions, optimize content, and streamline the entire production workflow. The platform serves creators on YouTube, Instagram, TikTok, Facebook, Twitch, LinkedIn, and other major platforms. AutoStream solves the problem of time-consuming manual video editing by automating repetitive editing tasks so creators can focus on creating. The platform is used by individual creators, small teams, influencers, and businesses that need to scale their video content production. AutoStream was built for creators who want professional-quality output without the professional editing learning curve."
+  }
+}

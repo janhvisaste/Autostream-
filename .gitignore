@@ -1,0 +1,15 @@
+# Ignore dotfiles
+.env
+.DS_Store
+
+# Ignore database and cache
+__pycache__/
+*.pyc
+checkpoints.db
+chroma_db/
+.streamlit/
+
+# Virtual environment
+venv/
+env/
+.venv/
