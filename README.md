@@ -1,6 +1,28 @@
 # AutoStream Conversational AI Agent
 
-AutoStream Conversational AI Agent is a production-grade, stateful AI assistant built to intelligently guide users through the AutoStream video platform. By utilizing a directed graph architecture, the system accurately classifies user intent in real-time, answers complex product inquiries using a RAG-powered knowledge base, and dynamically shifts into a secure, multi-turn sales funnel to capture high-intent leads flawlessly. 
+AutoStream Conversational AI Agent is a production-grade, stateful conversational assistant built with LangGraph for AutoStream—an AI-powered video creation and streaming platform. It leverages a directed graph architecture to classify user intent in real time, answer complex product queries using a RAG-powered knowledge base, and seamlessly transition into a secure, multi-turn sales funnel to capture high-intent leads.
+
+## What This Project Does
+
+AutoStream AI Agent is a multi-turn conversational assistant that:
+- Answers product questions grounded in the knowledge base (no hallucinations)
+- Classifies every message by intent: Greeting, Product Inquiry, or High-Intent Lead
+- Qualifies sales leads through a structured 3-stage collection flow (name → email → platform)
+- Fires a mock CRM function with all collected data at exactly the right moment
+- Persists full conversation state across turns using SQLite
+
+
+---
+
+## 🛠 Technology Stack
+
+- **Orchestration & State Machine**: LangGraph, LangChain
+- **LLM Engine**: Groq API (Llama-3.1-8b-instant) for sub-second, ultra-low latency intelligence
+- **Vector Embeddings**: HuggingFace (`all-MiniLM-L6-v2`)
+- **Vector Database**: ChromaDB for local RAG document retrieval
+- **State Persistence**: SQLite (`checkpoints.db`) for isolated, per-thread conversational memory
+- **Frontend/UI**: Streamlit with custom CSS overriding (Dark Theme, Glassmorphism, responsive chat layout)
+- **Language**: Python 3.10+
 
 ---
 
